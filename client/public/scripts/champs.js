@@ -9,24 +9,33 @@ const renderChamps = async () => {
             card.classList.add('card')  
             const topContainer = document.createElement('div')
             topContainer.classList.add('top-container')
-            const bottomContainer = document.createElement('div')
-            bottomContainer.classList.add('bottom-container')
             topContainer.style.backgroundImage = `url(${champ.image})`
-            const name = document.createElement('h3')
+            //////////////////////////////////////////////////////////
+            const bottomContainer = document.createElement('article')
+            // bottomContainer.classList.add('bottom-container')
+            const head = document.createElement('header')
+            const foot = document.createElement('footer')
+            bottomContainer.appendChild(head)
+            
+            const name = document.createElement('h5')
             name.textContent = champ.name
-            bottomContainer.appendChild(name)
+            head.appendChild(name)
+            
             const backstory = document.createElement('p')
             backstory.textContent = champ.backstory
             bottomContainer.appendChild(backstory)
-            // const audience = document.createElement('p')
-            // audience.textContent = 'Great For: ' + gift.audience
-            // bottomContainer.appendChild(audience)
+            
             const link = document.createElement('a')
             link.textContent = 'Read More >'
             link.setAttribute('role', 'button')
+            link.style.color = 'white'
             link.href = `http://localhost:3001/champs/${champ.id}`
-            link.className = 'read-more'
-            bottomContainer.appendChild(link)
+            link.className = 'outline'
+            
+            foot.appendChild(link)
+            bottomContainer.appendChild(foot)
+
+
             card.appendChild(topContainer)
             card.appendChild(bottomContainer)
             mainContent.appendChild(card)

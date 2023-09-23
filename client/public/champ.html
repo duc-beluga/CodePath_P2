@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.classless.min.css">
     <script type="module" src="/public/scripts/champ.js" defer></script>
     <script type="module" src="/public/scripts/header.js" defer></script>
     <title>Champ</title>
@@ -11,7 +12,7 @@
 <body >
     <header></header>
     <main id="champ-content" class="champ-info">
-        <div class="image-container">
+        <div id="image-container">
             <img id="image" src="" alt="Champ Image">
         </div>
         <div class="champ-details">
@@ -19,6 +20,7 @@
             <p id="backstory"></p>
             <p id="attack-dmg"></p>
             <p id="health"></p>
+            <p id="special-attack"></p>
         </div>
     </main>
 </body>

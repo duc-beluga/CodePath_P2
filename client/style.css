@@ -8,14 +8,15 @@
 /* Header CSS */
 .header-container {
   overflow: hidden;
-  padding: 20px 10px;
+  padding: 10px 10px;
   padding-bottom: 60px;
 }
 
 .header-left {
   float: left;
+  padding-top: 30px;
   height: 100px;
-  width: 310px;
+  width: 400px;
 }
 
 .header-left img {
@@ -48,12 +49,12 @@
   text-align: center;
   text-transform: uppercase;
   touch-action: manipulation;
-  width: 80px;
+  width: 100px;
 }
 
 /* Home page CSS */
 
-main {
+#main-content {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -61,14 +62,13 @@ main {
 }
 
 .card {
-  width: 300px;
-  height: 430px;
   background: transparent;
+  width: 300px;
   border-style: solid;
-  border-width: 3px;
+  border-width: 2px;
   border-color: rgb(3, 7, 89);
   border-radius: 0.3rem;
-  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.057);
+  box-shadow: 3px;
   margin-top: 0px;
   margin-left: 20px;
   margin-right: 40px;
@@ -164,7 +164,6 @@ main {
 .read-more {
   padding-left: 10em;
   /* padding-top: 5em;*/
-  margin-top: 5em;
 }
 
 #error-msg-container {
@@ -172,4 +171,8 @@ main {
   justify-content: center;
   align-items: center;
   font-size: xx-large;
+}
+
+.champ-info {
+  display: flex;
 }

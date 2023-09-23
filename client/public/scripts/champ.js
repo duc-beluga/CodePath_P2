@@ -8,10 +8,13 @@ const renderChamp = async () => {
     if (champ) {
         document.getElementById('image').src = champ.image
         document.getElementById('name').textContent = champ.name
-        // document.getElementById('submittedBy').textContent = 'Submitted by: ' + gift.submittedBy
         document.getElementById('attack-dmg').textContent = 'Attack DMG: ' +  champ.attackDamage
+        document.getElementById('attack-dmg').style.color = 'red'
         document.getElementById('health').textContent = 'Health: ' + champ.health
+        document.getElementById('health').style.color = 'green'
         document.getElementById('backstory').textContent = champ.backstory
+        document.getElementById('special-attack').textContent = champ.specialAttack
+        document.getElementById('special-attack').style.fontWeight = 'bold'
         document.title = `Champ - ${champ.name}`
     }
     else {

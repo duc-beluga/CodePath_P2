@@ -2,14 +2,12 @@ const header = document.querySelector('header')
 
 const headerContainer = document.createElement('div')
 headerContainer.className = 'header-container'
-headerContainer.style.backgroundImage = "url('https://img.freepik.com/free-vector/cosmic-background-alien-planet-deserted-landscape-with-mountains_107791-6400.jpg')";
 
 const headerLeft = document.createElement('div')
 headerLeft.className = 'header-left'
 
 const headerTitle = document.createElement('h1')
-headerTitle.textContent = 'Champs'
-headerTitle.style.color = 'white'
+headerTitle.textContent = 'Heroes Of The Day'
 
 const headerRight = document.createElement('div')
 headerRight.className = 'header-right'

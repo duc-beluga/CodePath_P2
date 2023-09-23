@@ -6,6 +6,7 @@ let champData = [
         "backstory": "Hailing from the ancient mountains, Aerona controls the winds and dominates her opponents.",
         "attackDamage": 70, // Add the attack damage value here
         "health": 600, // Add the health value here
+        "specialAttack": "Whirlwind Strike"
     },
     {
         "id": 2,
@@ -14,6 +15,7 @@ let champData = [
         "backstory": "With fists that burn hotter than the sun, Blazefist seeks vengeance for his lost homeland.",
         "attackDamage": 80, // Add the attack damage value here
         "health": 700, // Add the health value here
+        "specialAttack": "Inferno Punch"
     },
     {
         "id": 3,
@@ -22,6 +24,7 @@ let champData = [
         "backstory": "Cyra uses her mystical powers to read the future and outmaneuver her enemies.",
         "attackDamage": 65, // Add the attack damage value here
         "health": 550, // Add the health value here
+        "specialAttack": "Foresight"
     },
     {
         "id": 4,
@@ -30,6 +33,7 @@ let champData = [
         "backstory": "The dragonborn warrior, Draegor's roar can be heard echoing throughout the lands.",
         "attackDamage": 90, // Add the attack damage value here
         "health": 800, // Add the health value here
+        "specialAttack": "Dragon's Roar"
     },
     {
         "id": 5,
@@ -38,6 +42,7 @@ let champData = [
         "backstory": "Elara's celestial magic lights up the battlefield, guiding her team to victory.",
         "attackDamage": 75, // Add the attack damage value here
         "health": 650, // Add the health value here
+        "specialAttack": "Starlight Beam"
     },
 ];
 
