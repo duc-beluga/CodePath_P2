@@ -1,4 +1,5 @@
 import express from 'express'
+import './config/dotenv.js';
 import champsRouter from './routes/champs.js'
 import cors from 'cors'
 import path from 'path';
