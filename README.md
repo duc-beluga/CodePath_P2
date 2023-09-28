@@ -1,8 +1,8 @@
-# WEB103 Project 2 - _Name of App Here_
+# WEB103 Project 2 - _Champs_
 
-Submitted by: **Your name here**
+Submitted by: **Duc Nguyen**
 
-About this web app: **App description here**
+About this web app: **An app that displays a list of champions.**
 
 Time spent: **1** hours
 
